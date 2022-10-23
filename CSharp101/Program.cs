@@ -1,14 +1,14 @@
-﻿namespace CSharp101
+﻿using System;
+using Tools;
+
+namespace ConsoleHelloWorld
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Test!");
+            double result = Calculator.Div(3, 2);
+            Console.WriteLine(result);
         }
     }
 }
